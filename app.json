@@ -1,0 +1,14 @@
+{
+  "name": "KHURSHEED MD Bot",
+  "description": "WhatsApp automation bot with Admin Panel",
+  "repository": "https://github.com/yourusername/khursheed-md-king-bot",
+  "keywords": ["whatsapp", "bot", "baileys", "node"],
+  "env": {
+    "OWNER_NUMBER": { "description": "Your WhatsApp number with country code, no +", "value": "923XXXXXXXX" },
+    "ADMIN_PANEL_PASSWORD": { "description": "Password for the /admin dashboard", "value": "Khursheedxbot  923404495851" },
+    "OPENAI_API_KEY": { "description": "Optional — for .ai command", "required": false },
+    "GIPHY_API_KEY": { "description": "Optional", "required": false }
+  },
+  "formation": { "web": { "quantity": 1, "size": "eco" } },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}
